@@ -3,8 +3,10 @@ import UserContext from "../../contexts/users/UserContext";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
+import { useNavigate } from "react-router-dom";
 
 export default function Login(props) {
+    const navigate = useNavigate()
 
     const userCtx = useContext(UserContext)
 
@@ -19,15 +21,21 @@ export default function Login(props) {
         password: ""
     })
 
-    useEffect(() => {
-        verifyingToken()
+    //     useEffect(() => {
+    //     verifyingToken()
+    //     if(authStatus){
+    //         props.history.push("/perfil")
+    //     }
+    // }, [authStatus]) 
 
-        if(authStatus){
-            props.history.push("/perfil")
-        }
-    }, [authStatus])
-
-    if(authStatus) return null   
+  useEffect(() => {
+      verifyingToken();
+      if (authStatus) {
+          navigate("/perfil");
+      }
+  }, [authStatus]);
+  
+  if(authStatus) return null   
 
     const handleChange = (event) => {
         setData({

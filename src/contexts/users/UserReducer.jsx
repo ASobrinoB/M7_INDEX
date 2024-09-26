@@ -2,10 +2,14 @@
 const reducers = (globalState, action) => {
 
     switch(action.type){
-
         case "LOGIN_EXITOSO":
-        case "REGISTRO_EXITOSO":
+            return {
+                ...globalState,
+                user: action.payload.user,
+                authStatus: true,
+            };
 
+        case "REGISTRO_EXITOSO":
         localStorage.setItem("token", action.payload.token)
 
             return {
