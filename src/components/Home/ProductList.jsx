@@ -10,6 +10,8 @@ import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import IconButton from "@mui/material/IconButton";
 
+import PaypalButton from "./paypal";
+
 export const ProductList = () => {
 
   const ctx = useContext(ProductContext);
@@ -45,6 +47,7 @@ export const ProductList = () => {
                 <TableCell>{row.stock}</TableCell>
                 <TableCell>
                  <IconButton>
+                 <PaypalButton valor={row.priceUSD} />
                  </IconButton>
                 </TableCell>
               </TableRow>
