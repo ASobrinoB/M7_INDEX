@@ -7,7 +7,7 @@ export default class PaypalButton extends React.Component {
 			return actions.order
 				.create({
 					purchase_units: [{
-						description: 'Guitarra',
+						description: '',
 						amount: {
 							currency_code: 'USD',
 							value: this.props.valor,
@@ -46,7 +46,7 @@ export default class PaypalButton extends React.Component {
 			// or for the button to appear
 		};
 		const options = {
-			'client-id':'AcjUpD1MINOI45QUxPw04w7yepPMwir03tOUrBA9Yswl-owbHBoehYcmI9Y1V8oiPuACgt89k1tWCJ_m',
+			'client-id':'Aei3AmuWpWCHmUGKMCVeblvp3sWP6ckcX7i2zWECj1QR7WYRnZZuDQb9nfJMK6PHNfe5UYqgVaC59yaO'
 		};
 		return (
 			<PayPalScriptProvider options={options}>
