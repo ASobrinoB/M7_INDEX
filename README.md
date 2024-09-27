@@ -94,9 +94,11 @@ A continuación, se presenta una lista de requisitos mínimos y entregables que 
 
 - [ ] Ejecución Web
 
+![Image](./images/pantallaInicioSinDatos.png)
+
 ![Image](./images/pantallaInicioConDatos.png)
 
-![Image](./images/pantallaInicioSinDatos.png)
+![Image](./images/paypal.png)
 
 - [ ] Ejecución Crear un usuario
 
