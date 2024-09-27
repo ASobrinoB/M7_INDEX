@@ -1,6 +1,5 @@
 import React from "react";
 import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
-import './PaypalButton.css';
 
 export default class PaypalButton extends React.Component {
     render() {
