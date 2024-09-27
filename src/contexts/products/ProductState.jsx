@@ -16,7 +16,7 @@ const ProductState = (props) => {
             dispatch({
                 type: "OBTENER-PRODUCTOS",
                 payload: res.data.products
-            })
+            });
         } catch (error) {
             console.log(error);
         }

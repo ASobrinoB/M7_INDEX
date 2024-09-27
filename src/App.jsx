@@ -17,10 +17,8 @@ function App() {
           <Header />
           <Routes>
             <Route path="/perfil" element={<PrivateRoute element={Profile} />} />
-
             <Route path="/registro" element={<AuthRoute element={Register} />} />
             <Route path="/iniciar-sesion" element={<AuthRoute element={Login} />} />
-
             <Route path="/" element={<Home />} />
           </Routes>
         </Router>

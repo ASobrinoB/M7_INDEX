@@ -1,6 +1,7 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import ProductContext from "../../contexts/products/ProductContext";
 import PaypalButton from "./PayPalButton";
+
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
 import TableCell from "@mui/material/TableCell";
@@ -13,10 +14,12 @@ import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 
 export const ProductList = () => {
 
-  const userCtx = useContext(ProductContext);
-  const { products, getProducts } = userCtx;
+  const ctx = useContext(ProductContext);
+  const { products, getProducts } = ctx;
 
-  getProducts();
+  useEffect(() => {
+    getProducts();
+  }, []);
 
   return (
     <div>
