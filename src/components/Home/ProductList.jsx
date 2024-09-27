@@ -10,7 +10,7 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import IconButton from "@mui/material/IconButton";
-import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
+import PaymentIcon from '@mui/icons-material/Payment';
 
 export const ProductList = () => {
 
@@ -46,10 +46,8 @@ export const ProductList = () => {
                 <TableCell>{row.weightKG}</TableCell>
                 <TableCell>{row.stock}</TableCell>
                 <TableCell>
-                 <IconButton
-                    aria-label="add to shopping cart"
-                    onClick={() => handleShopping(row._id)}>
-                    <AddShoppingCartIcon />
+                 <IconButton>
+                  <PaypalButton valor={row.priceUSD}/>
                   </IconButton>
                 </TableCell>
               </TableRow>
