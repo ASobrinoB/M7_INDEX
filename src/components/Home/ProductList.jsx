@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import ProductContext from "../../contexts/products/ProductContext";
-import PaypalButton from "./PayPalButton";
+import PaypalButton from './PayPalButton';
 
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
