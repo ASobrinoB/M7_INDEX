@@ -92,9 +92,11 @@ A continuación, se presenta una lista de requisitos mínimos y entregables que 
 
 `VITE_BACKEND_URL=http://localhost:3001/api`
 
-- [ ] Ejecución Wev
+- [ ] Ejecución Web
 
-![Image](./images/web.png)
+![Image](./images/pantallaInicioConDatos.png)
+
+![Image](./images/pantallaInicioSinDatos.png)
 
 - [ ] Ejecución Crear un usuario
 
