@@ -92,9 +92,17 @@ A continuación, se presenta una lista de requisitos mínimos y entregables que 
 
 `VITE_BACKEND_URL=http://localhost:3001/api`
 
-- [ ] Ejecución
+- [ ] Ejecución Wev
 
-![Image](./images/crudProductos.png)
+![Image](./images/web.png)
+
+- [ ] Ejecución Crear un usuario
+
+![Image](./images/opcionCreaUsuario.png)
+
+- [ ] Ejecución Login Usuario
+
+![Image](./images/opcionLoginUsuario.png)
 
 - [ ] Netlify
 
