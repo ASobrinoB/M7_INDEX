@@ -6,13 +6,12 @@ export default function Profile() {
         <>
             <main>
                 <section aria-labelledby="primary-heading">
-                    <h1 id="primary-heading">Home</h1>
+                    <h1 id="primary-heading"></h1>
 
                 </section>
 
                 <aside>
                     <div>
-                        Aquí va tu perfil
                     </div>
                 </aside>
             </main>

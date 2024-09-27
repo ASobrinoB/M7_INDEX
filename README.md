@@ -6,12 +6,9 @@
 ## **ÍNDICE**
 
 * [1. Intro](#1-intro)
-* [2. Demo](#2-demo)
-* [3. ¿Qué construirás?](#3-qu%C3%A9-construir%C3%A1s)
-* [4. Objetivos de Aprendizaje](#4-objetivos-de-aprendizaje)
-* [5. Requisitos](#5-requisitos-y-entregables)
-* [6. Criterios de evaluación](#6-criterios-de-evaluaci%C3%B3n)
-* [7. Entregas](#7-entregas)
+* [2. Enunciado](#2-enunciado)
+* [3. Requisitos y entregables](#3-requisitos-y-entregables)
+* [4. Información de apoyo](#4-informacion-de-apoyo)
 
 ****
 
@@ -19,29 +16,9 @@
 
 El comercio electrónico ha experimentado un crecimiento significativo en los últimos años. Cada vez más empresas necesitan incorporar una tienda en línea a sus procesos de comercialización para adaptarse a las nuevas demandas del mercado. En este contexto, llevar a cabo un proyecto de comercio electrónico (eCommerce) se convierte en uno de los ejercicios más completos y desafiantes en el ámbito de las aplicaciones Fullstack.
 
-
 ****
 
-## 2. Demo
-
-Para ilustrar el alcance y las funcionalidades de un proyecto de este tipo, hemos preparado una demostración que puedes explorar en el siguiente enlace: 
-
-- [Link a aplicación](https://sevenm-fullstack-m7-proy.onrender.com/)
-
-- [Link a explicación](https://github.com/UDDBootcamp/7M_FULLSTACK_M7_PROY/tree/master/demo)
-
-
-En esta demostración, presentamos una pizzería virtual en la que los usuarios pueden pedir y pagar pizzas en línea utilizando la pasarela de pago `Stripe`. La plataforma incluye todas las funcionalidades necesarias para gestionar pedidos, realizar pagos y mantener la información de los usuarios segura.
-
-![](images/demo.gif)
-
-Al momento de realizar un pago, puedes usar la tarjeta `4242 4242 4242 4242` y colocar el resto de números e información como gustes. Esto para que puedas probar la sección de recibos.
-
-Para tu proyecto, puedes elegir otras plataformas como Mercado Pago, o PayPal. En realidad, la arquitectura debería ser la misma, solo cambiarías el manejo de API.
-
-****
-
-## 3. ¿Qué construirás?
+## 2. Enunciado
 
 El objetivo de este proyecto es desarrollar una aplicación Fullstack de comercio electrónico que incluya todos los elementos esenciales para gestionar un negocio en línea. Algunos de los elementos clave que deberás tener en cuenta son:
 
@@ -82,19 +59,7 @@ Además, podrás utilizar bibliotecas externas que faciliten y complementen el d
 
 ****
 
-## 4. Objetivos de aprendizaje
-
-A lo largo de este proyecto, tendrás la oportunidad de profundizar y aplicar tus conocimientos en diversas áreas clave, como:
-
-- Manejo de rutas en el lado del cliente (Frontend) para garantizar una navegación fluida y eficiente.
-- Manejo de estados locales y globales (Frontend) para gestionar la información de la aplicación y facilitar la comunicación entre componentes.
-- Manejo de rutas en el servidor (Backend) para gestionar las solicitudes y respuestas entre el cliente y el servidor.
-- Gestión y flujo de datos en MongoDB, lo que te permitirá almacenar, consultar y manipular información de manera eficiente y segura.
-- Implementación de medidas de seguridad, como autenticación y autorización, para proteger la información y garantizar el acceso adecuado a las funciones y datos del usuario.
-
-****
-
-## 5. Requisitos y entregables
+## 3. Requisitos y entregables
 
 A continuación, se presenta una lista de requisitos mínimos y entregables que deberás cumplir para garantizar el éxito del proyecto:
 ### GENERAL
@@ -121,28 +86,20 @@ A continuación, se presenta una lista de requisitos mínimos y entregables que 
 
 ****
 
-## 6. Criterios de evaluación
+## 4. Información de apoyo
 
-A partir de los requisitos, tu % estará definido de esta forma:
+- [ ] Variables de entorno
 
-| ÁREA       | % DEL TOTAL |
-| ------------- |:-------------:|
-| IMPLEMENTACIÓN GESTIÓN DE PRODUCTOS      | 30%     |
-| IMPLEMENTACIÓN AUTENTICACIÓN      | 30%     |
-| IMPLEMENTACIÓN DE PASARELA DE PAGOS ECOMMERCE | 20%     |
-| DESPLIEGUE | 20%      |
-| ENTREGA A TIEMPO | 10%      |
+`VITE_BACKEND_URL=http://localhost:3001/api`
 
-****
+- [ ] Ejecución
 
-## 7. Entregas
+![Image](./images/crudProductos.png)
 
-**Implementación Gestión de Productos:** Se evaluará la funcionalidad y la eficiencia en la gestión de los productos, incluyendo la creación, consulta, actualización y eliminación de los artículos en el catálogo, así como la presentación de los productos a los usuarios.
+- [ ] Netlify
 
-**Implementación Autenticación:** Se evaluará la correcta implementación de los sistemas de autenticación y autorización, incluyendo el registro de usuarios, el inicio de sesión, la generación y validación de tokens, y la gestión de roles y permisos de acceso a las áreas privadas de la aplicación.
+`https://vocal-pika-119450.netlify.app`
 
-**Implementación eCommerce:** Se evaluará la correcta implementación de la plataforma de comercio electrónico en su conjunto, incluyendo el catálogo de productos, el carrito de compras y la integración con la pasarela de pago.
+- [ ] Render API
 
-**Despliegue:** Se evaluará la calidad y estabilidad del despliegue de la aplicación, incluyendo la correcta configuración del entorno, el uso de servicios de alojamiento adecuados y la disponibilidad de una URL para compartir el proyecto.
-
-**Entrega a tiempo:** Se evaluará la capacidad para cumplir con los plazos establecidos y entregar el proyecto de manera oportuna, demostrando habilidades de gestión del tiempo y planificación adecuadas.
+`https://m7-api-2l0h.onrender.com`
