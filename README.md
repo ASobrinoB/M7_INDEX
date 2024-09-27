@@ -110,7 +110,7 @@ A continuación, se presenta una lista de requisitos mínimos y entregables que 
 
 - [ ] Netlify
 
-`https://vocal-pika-119450.netlify.app`
+`https://charming-donut-a82382.netlify.app/`
 
 - [ ] Render API
 
