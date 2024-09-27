@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
 import ProductContext from "../../contexts/products/ProductContext";
-import PaypalButton from './PayPalButton';
 
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
@@ -46,8 +45,7 @@ export const ProductList = () => {
                 <TableCell>{row.stock}</TableCell>
                 <TableCell>
                  <IconButton>
-                  <PaypalButton valor={row.priceUSD}/>
-                  </IconButton>
+                 </IconButton>
                 </TableCell>
               </TableRow>
             ))}
